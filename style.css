@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.main-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    text-align: center;
+}
+
+.main-table thead tr {
+    background-color: rgb(122, 97, 150);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-table th,
+.main-table td {
+    padding: 12px 15px;
+}
+
+.main-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.main-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.block {
+    display: inline-flex;
+}
+
+p {
+    margin: 20px;
+}
