@@ -1,6 +1,7 @@
 .main {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .container {
@@ -13,7 +14,7 @@
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    min-width: 400px;
+    min-width: 300px;
     text-align: center;
 }
 
@@ -46,4 +47,12 @@
 
 p {
     margin: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    img {
+        width: 100%;
+    }
 }
